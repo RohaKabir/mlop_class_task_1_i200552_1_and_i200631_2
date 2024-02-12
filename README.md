@@ -17,29 +17,29 @@ git checkout -b test
 git push origin dev  
 git push origin test
 
--Create member 1 brach 
+-Create member 1 branch  
 git branch Zainab_i200631
 
--Perform project scafolding
+-Perform project scafolding  
 echo. > mem1.py  
 Merge to dev branch  
 git checkout dev  
 git merge zainab_i200631  
 
--Push to origin
+-Push to origin  
 git push origin dev
 
--Create member 2 brach
+-Create member 2 brach  
 git branch Roha_i200552
 
--Perform project scafolding
+-Perform project scafolding  
 echo. > mem2.py
 
--Merge to dev branch
+-Merge to dev branch  
 git checkout dev  
-git merge Roha_i200552  
+git merge Roha_i200552    
 
--Push to origin
+-Push to origin  
 git push origin dev
 
 
