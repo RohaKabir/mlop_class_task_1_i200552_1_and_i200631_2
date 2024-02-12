@@ -6,39 +6,40 @@ git clone <[repository-url](https://github.com/RohaKabir/Mlops_Task1)>
 cd <Mlops_task1>
 #### Create Branches
 -Create dev branch:
--git branch dev
--git checkout -b dev
+git branch dev
+git checkout -b dev
 
 -Create test branch
--git branch dev
--git checkout -b test
+git branch dev
+git checkout -b test
 
 -Push onto origin
--git push origin dev
--git push origin test
+git push origin dev
+git push origin test
 
 -Create member 1 brach 
--git branch Zainab_i200631
+git branch Zainab_i200631
 
 -Perform project scafolding
--echo. > mem1.py
--Merge to dev branch
--git checkout dev
--git merge zainab_i200631
+echo. > mem1.py
+Merge to dev branch
+git checkout dev
+git merge zainab_i200631
 
 -Push to origin
--git push origin dev
+git push origin dev
 
 -Create member 2 brach
--git branch Roha_i200552
+git branch Roha_i200552
 
 -Perform project scafolding
--echo. > mem2.py
+echo. > mem2.py
+
 -Merge to dev branch
--git checkout dev
--git merge Roha_i200552
+git checkout dev
+git merge Roha_i200552
 
 -Push to origin
--git push origin dev
+git push origin dev
 
 
